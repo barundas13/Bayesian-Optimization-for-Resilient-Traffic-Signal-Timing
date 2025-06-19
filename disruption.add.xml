@@ -1,0 +1,15 @@
+<additional>
+    <!-- For traffic approaching from the North -->
+    <rerouter id="rerouter_N" edges="J_2_1_to_J_1_1">
+        <interval begin="900" end="3600">
+            <closingLaneReroute id="J_1_1_to_J_0_1_0"/>
+        </interval>
+    </rerouter>
+
+    <!-- For traffic approaching from the West -->
+    <rerouter id="rerouter_W" edges="J_1_0_to_J_1_1">
+        <interval begin="900" end="3600">
+            <closingLaneReroute id="J_1_1_to_J_1_2_0"/>
+        </interval>
+    </rerouter>
+</additional>
