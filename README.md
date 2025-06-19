@@ -7,7 +7,7 @@ This repository contains all the necessary code and configuration files to repro
 
 - **`grid_.net.xml`**: Defines the 3x3 road network, including junctions and lanes.
 - **`grid_normal.rou.xml` & `grid_highstress.rou.xml`**: Defines the 'Normal' and 'High-Stress' traffic demand scenarios.
-- **`disruption.add.xml`**: Defines the "City Center Shutdown" event that closes the central intersection mid-simulation.
+- **`disruption.add.xml`**: Defines the disruption event that closes the central intersection mid-simulation.
 - **`grid_normal.sumocfg`**, **`grid_highstress.sumocfg`**, **`grid_disrupted.sumocfg`**: The configuration files that combine the network, route, and disruption files to create the simulation.
 - **`bayesian_optimization.py`**: The main optimization script that runs the Bayesian Optimization process across all three scenarios to find and save the **'Optimized-for-Resilience'** traffic plan.
 - **`evaluation.py`**: The final evaluation script that systematically runs 9 simulations (3 plans x 3 scenarios) to gather performance data for the final comparison and generates the final results.
