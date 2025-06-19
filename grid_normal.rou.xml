@@ -1,0 +1,11 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="13.89" />
+
+    <flow id="W_E_0" type="car" from="W_0_to_J_0_0" to="J_0_2_to_E_0" begin="0" end="3600" vehsPerHour="200" />
+    <flow id="W_E_1" type="car" from="W_1_to_J_1_0" to="J_1_2_to_E_1" begin="0" end="3600" vehsPerHour="200" />
+    <flow id="W_E_2" type="car" from="W_2_to_J_2_0" to="J_2_2_to_E_2" begin="0" end="3600" vehsPerHour="200" />
+
+    <flow id="N_S_0" type="car" from="N_0_to_J_2_0" to="J_0_0_to_S_0" begin="0" end="3600" vehsPerHour="200" />
+    <flow id="N_S_1" type="car" from="N_1_to_J_2_1" to="J_0_1_to_S_1" begin="0" end="3600" vehsPerHour="200" />
+    <flow id="N_S_2" type="car" from="N_2_to_J_2_2" to="J_0_2_to_S_2" begin="0" end="3600" vehsPerHour="200" />
+</routes>

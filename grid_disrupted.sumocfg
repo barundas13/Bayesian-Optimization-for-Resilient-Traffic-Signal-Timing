@@ -1,0 +1,13 @@
+<configuration>
+    <input>
+        <net-file value="grid.net.xml"/>
+        <route-files value="grid_highstress.rou.xml"/>
+		<additional-files value="disruption.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+    </time>
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+</configuration>
