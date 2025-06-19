@@ -1,5 +1,5 @@
 # Bayesian-Optimization-for-Resilient-Traffic-Signal-Timing
-This project explores the use of Bayesian Optimization (BO) to find a single, static traffic signal timing plan that is inherently resilient to a variety of network conditions, including heavy congestion and network disruptions. The project is built using Python with **`scikit-optimize`** for the optimization algorithm and **`SUMO (Simulation of Urban MObility)`** for the traffic simulation.
+This project explores the use of Bayesian Optimization (BO) to find a single and static traffic signal timing plan that is inherently resilient to a variety of network conditions, including heavy congestion and network disruptions. The project is built using Python with **`scikit-optimize`** for the optimization algorithm and **`SUMO (Simulation of Urban MObility)`** for the traffic simulation.
 
 ## File Descriptions
 
