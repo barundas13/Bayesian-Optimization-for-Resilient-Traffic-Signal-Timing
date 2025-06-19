@@ -1,8 +1,6 @@
 # Bayesian-Optimization-for-Resilient-Traffic-Signal-Timing
 This project explores the use of Bayesian Optimization (BO) to find a single, static traffic signal timing plan that is inherently resilient to a variety of network conditions, including heavy congestion and network disruptions. The project is built using Python with **`scikit-optimize`** for the optimization algorithm and **`SUMO (Simulation of Urban MObility)`** for the traffic simulation.
 
----
-
 ## File Descriptions
 
 This repository contains all the necessary code and configuration files to reproduce the experiment.
@@ -14,8 +12,6 @@ This repository contains all the necessary code and configuration files to repro
 - **`bayesian_optimization.py`**: The main optimization script that runs the Bayesian Optimization process across all three scenarios to find and save the **'Optimized-for-Resilience'** traffic plan.
 - **`evaluation.py`**: The final evaluation script that systematically runs 9 simulations (3 plans x 3 scenarios) to gather performance data for the final comparison and generates the final results.
 
----
-
 ## Prerequisites
 
-- **SUMO:** You must have SUMO installed on your system and the `SUMO_HOME` environment variable set. Please follow the official installation guide at [sumo.dlr.de](https://sumo.dlr.de/docs/Installing.html).
+- **SUMO:** You must have SUMO installed on your system. Please follow the official installation guide at [sumo.dlr.de](https://sumo.dlr.de/docs/Installing.html).
